@@ -64,7 +64,7 @@ class Field {
             this.print();
             this.askQuestion();
 
-            if (!this.isOutOfBounds()) {
+            if (!this.isNotOut()) {
                 console.log('Out of bounds - Game End!');
                 playGame = false;
                 break;
@@ -84,7 +84,7 @@ class Field {
         }
     }
 
-    isOutOfBounds = () => this.locationY >= 0 || this.locationY <-10 || this.locationX <= 0 || this.locationX > 10;
+    isNotOut = () => this.locationY >= 0 || this.locationY < 10 || this.locationX >= 0 || this.locationX > 10;
 
     isHole = () => this.field[this.locationY][this.locationX] === hole;
 
