@@ -19,11 +19,7 @@ Build the Find My Hat game & explain the steps behind building a JavaScript Appl
 ### Game Requirements
 -	Create a 10 X 10 Field
 -	The character * can be always at the default of position (0,0) when the user starts the game
--	The controls for the character are:
-○	Up = u key
-○	Down = d key
-○	Left = l key
-○	Right = r key
+-	The controls for the character are: Up = u key, Down = d key, Left = l key, Right = r key
 -	If a user entered an invalid key (e.g. p or t), output “Enter (u, d, l or r.) and allow the user to enter again
 -	The number of holes generated should be lesser than the fields generated
 -	When the character drops into a hole, output “Sorry, you fell down a hole!” and the game ends
