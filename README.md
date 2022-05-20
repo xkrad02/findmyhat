@@ -1,6 +1,6 @@
 # JavaScript Assessment: Find My Hat
 
-Assessment Requirements: 
+Assessment Requirements:
 Build the Find My Hat game & explain the steps behind building a JavaScript Application
 
 - [Overview](#overview)
